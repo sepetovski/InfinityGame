@@ -1,0 +1,20 @@
+{
+"instructions_readme": "1) Open Chrome, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
+
+"traceEvents":[
+{ "pid": "Unity", "ph":"M", "name": "process_name", "args": {"name": "Unity"} },
+{ "pid": "Unity", "ph":"M", "name": "process_sort_index", "args": {"sort_index": -100} },
+{ "pid": "Unity", "tid": 1, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "Unity", "tid": 1,"ts": 1.68364489105769E+15,"dur": 11285135, "ph":"X", "name": "Build player"},
+{ "pid": "Unity", "tid": 1,"ts": 1.68364489110163E+15,"dur": 24539, "ph":"X", "name": "Preprocess Player"},
+{ "pid": "Unity", "tid": 1,"ts": 1.683644891142E+15,"dur": 11179742, "ph":"X", "name": "Prepare For Build"},
+{}
+
+],
+"meta_datetime": "05/09/2023 17:08:22",
+"meta_command_line": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2021.3.21f1\\Editor\\Unity.exe\" -projectpath C:\\Users\\sepet\\Infinity -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-sepet -hubSessionId 23ce845b-0429-4f32-8e7b-472f92cf05d6 -projectpath C:\\Users\\sepet\\Infinity -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-sepet -hubSessionId 23ce845b-0429-4f32-8e7b-472f92cf05d6",
+"meta_command_line_args": "C:\\Program Files\\Unity\\Hub\\Editor\\2021.3.21f1\\Editor\\Unity.exe -projectpath C:\\Users\\sepet\\Infinity -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-sepet -hubSessionId 23ce845b-0429-4f32-8e7b-472f92cf05d6 -projectpath C:\\Users\\sepet\\Infinity -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-sepet -hubSessionId 23ce845b-0429-4f32-8e7b-472f92cf05d6",
+"meta_user_name": "sepet",
+"meta_os_version": "Microsoft Windows NT 10.0.22621.0",
+"meta_cpu_count": "8"
+}
